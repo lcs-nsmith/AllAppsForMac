@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		44F6FE4F2764F1C200D679E1 /* MacOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F6FE4E2764F1C200D679E1 /* MacOSAppApp.swift */; };
-		44F6FE512764F1C200D679E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F6FE502764F1C200D679E1 /* ContentView.swift */; };
 		44F6FE532764F1C400D679E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F6FE522764F1C400D679E1 /* Assets.xcassets */; };
 		44F6FE562764F1C400D679E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F6FE552764F1C400D679E1 /* Preview Assets.xcassets */; };
+		44F6FE7A2764F31F00D679E1 /* FlashCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F6FE792764F31F00D679E1 /* FlashCardsView.swift */; };
+		44F6FE7C2764F38300D679E1 /* FlashCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F6FE7B2764F38300D679E1 /* FlashCardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44F6FE4B2764F1C200D679E1 /* MacOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F6FE4E2764F1C200D679E1 /* MacOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSAppApp.swift; sourceTree = "<group>"; };
-		44F6FE502764F1C200D679E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44F6FE522764F1C400D679E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44F6FE552764F1C400D679E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44F6FE572764F1C400D679E1 /* MacOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOSApp.entitlements; sourceTree = "<group>"; };
+		44F6FE792764F31F00D679E1 /* FlashCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsView.swift; sourceTree = "<group>"; };
+		44F6FE7B2764F38300D679E1 /* FlashCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				44F6FE4E2764F1C200D679E1 /* MacOSAppApp.swift */,
-				44F6FE502764F1C200D679E1 /* ContentView.swift */,
+				44F6FE782764F2D800D679E1 /* Views */,
+				44F6FE772764F2D300D679E1 /* Model */,
 				44F6FE522764F1C400D679E1 /* Assets.xcassets */,
 				44F6FE572764F1C400D679E1 /* MacOSApp.entitlements */,
 				44F6FE542764F1C400D679E1 /* Preview Content */,
@@ -67,6 +70,22 @@
 				44F6FE552764F1C400D679E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44F6FE772764F2D300D679E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44F6FE7B2764F38300D679E1 /* FlashCardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44F6FE782764F2D800D679E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44F6FE792764F31F00D679E1 /* FlashCardsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +158,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F6FE512764F1C200D679E1 /* ContentView.swift in Sources */,
+				44F6FE7C2764F38300D679E1 /* FlashCardModel.swift in Sources */,
+				44F6FE7A2764F31F00D679E1 /* FlashCardsView.swift in Sources */,
 				44F6FE4F2764F1C200D679E1 /* MacOSAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
