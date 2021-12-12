@@ -83,7 +83,9 @@ struct FlashCardsView: View {
 
 struct FlashCardsView_Previews: PreviewProvider {
     static var previews: some View {
+        NavigationView {
         FlashCardsView()
 .previewInterfaceOrientation(.landscapeLeft)
+        }
     }
 }

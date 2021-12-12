@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4498386D27664CF500F88177 /* NavigationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4498386C27664CF500F88177 /* NavigationListView.swift */; };
 		44F6FE4F2764F1C200D679E1 /* MacOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F6FE4E2764F1C200D679E1 /* MacOSAppApp.swift */; };
 		44F6FE532764F1C400D679E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F6FE522764F1C400D679E1 /* Assets.xcassets */; };
 		44F6FE562764F1C400D679E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F6FE552764F1C400D679E1 /* Preview Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4498386C27664CF500F88177 /* NavigationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationListView.swift; sourceTree = "<group>"; };
 		44F6FE4B2764F1C200D679E1 /* MacOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F6FE4E2764F1C200D679E1 /* MacOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSAppApp.swift; sourceTree = "<group>"; };
 		44F6FE522764F1C400D679E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4498386B27664C7600F88177 /* FlashCards */ = {
+			isa = PBXGroup;
+			children = (
+				44F6FE772764F2D300D679E1 /* Model */,
+				44F6FE782764F2D800D679E1 /* Views */,
+			);
+			path = FlashCards;
+			sourceTree = "<group>";
+		};
 		44F6FE422764F1C200D679E1 = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +66,11 @@
 			isa = PBXGroup;
 			children = (
 				44F6FE4E2764F1C200D679E1 /* MacOSAppApp.swift */,
-				44F6FE782764F2D800D679E1 /* Views */,
-				44F6FE772764F2D300D679E1 /* Model */,
+				4498386C27664CF500F88177 /* NavigationListView.swift */,
 				44F6FE522764F1C400D679E1 /* Assets.xcassets */,
 				44F6FE572764F1C400D679E1 /* MacOSApp.entitlements */,
 				44F6FE542764F1C400D679E1 /* Preview Content */,
+				4498386B27664C7600F88177 /* FlashCards */,
 			);
 			path = MacOSApp;
 			sourceTree = "<group>";
@@ -160,6 +171,7 @@
 			files = (
 				44F6FE7C2764F38300D679E1 /* FlashCardModel.swift in Sources */,
 				44F6FE7A2764F31F00D679E1 /* FlashCardsView.swift in Sources */,
+				4498386D27664CF500F88177 /* NavigationListView.swift in Sources */,
 				44F6FE4F2764F1C200D679E1 /* MacOSAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
