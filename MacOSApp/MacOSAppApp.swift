@@ -11,7 +11,9 @@ import SwiftUI
 struct MacOSAppApp: App {
     var body: some Scene {
         WindowGroup {
+            NavigationView {
             FlashCardsView()
+            }
         }
     }
 }

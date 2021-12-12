@@ -10,9 +10,19 @@ import SwiftUI
 struct NavigationListView: View {
     var body: some View {
         List {
-            NavigationLink(destination: FlashCardsView()) {
-                Text("Flash Cards")
-            }
+            Section(content: {
+
+                NavigationLink(destination: {
+                    FlashCardsView()
+                }, label: {
+                    Text("Flash Cards")
+                })
+                
+            }, header: {
+                
+                Text("Tools & App's")
+                
+            })
         }
     }
 }
