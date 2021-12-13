@@ -18,6 +18,16 @@ struct NavigationListView: View {
                     Text("Flash Cards")
                 })
                 
+                Divider()
+                
+                NavigationLink(destination: {
+                    NavigationView {
+                    FiguresListView()
+                    }
+                }, label: {
+                    Text("Figures Helper")
+                })
+                
             }, header: {
                 
                 Text("Tools & App's")
@@ -28,6 +38,8 @@ struct NavigationListView: View {
 }
 struct NavigationListView_Previews: PreviewProvider {
     static var previews: some View {
+        NavigationView {
         NavigationListView()
+        }
     }
 }

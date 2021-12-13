@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4498386D27664CF500F88177 /* NavigationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4498386C27664CF500F88177 /* NavigationListView.swift */; };
+		44DBC3162766C75B000A45C8 /* OutputValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBC3152766C75B000A45C8 /* OutputValueView.swift */; };
+		44DBC31A2766C7E9000A45C8 /* ParallelogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBC3192766C7E9000A45C8 /* ParallelogramView.swift */; };
+		44DBC31C2766C822000A45C8 /* DiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBC31B2766C822000A45C8 /* DiagramView.swift */; };
+		44DBC31F2766C890000A45C8 /* SectionLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBC31D2766C88F000A45C8 /* SectionLabelView.swift */; };
+		44DBC3202766C890000A45C8 /* SliderValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBC31E2766C88F000A45C8 /* SliderValueView.swift */; };
+		44DBC3222766C8D8000A45C8 /* FiguresListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBC3212766C8D8000A45C8 /* FiguresListView.swift */; };
+		44DBC3242766C8F4000A45C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBC3232766C8F4000A45C8 /* ContentView.swift */; };
+		44DBC3262766C90D000A45C8 /* SphereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBC3252766C90D000A45C8 /* SphereView.swift */; };
+		44DBC3282766C921000A45C8 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBC3272766C921000A45C8 /* CircleView.swift */; };
 		44F6FE4F2764F1C200D679E1 /* MacOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F6FE4E2764F1C200D679E1 /* MacOSAppApp.swift */; };
 		44F6FE532764F1C400D679E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F6FE522764F1C400D679E1 /* Assets.xcassets */; };
 		44F6FE562764F1C400D679E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F6FE552764F1C400D679E1 /* Preview Assets.xcassets */; };
@@ -17,6 +26,15 @@
 
 /* Begin PBXFileReference section */
 		4498386C27664CF500F88177 /* NavigationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationListView.swift; sourceTree = "<group>"; };
+		44DBC3152766C75B000A45C8 /* OutputValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputValueView.swift; sourceTree = "<group>"; };
+		44DBC3192766C7E9000A45C8 /* ParallelogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelogramView.swift; sourceTree = "<group>"; };
+		44DBC31B2766C822000A45C8 /* DiagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramView.swift; sourceTree = "<group>"; };
+		44DBC31D2766C88F000A45C8 /* SectionLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionLabelView.swift; sourceTree = "<group>"; };
+		44DBC31E2766C88F000A45C8 /* SliderValueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderValueView.swift; sourceTree = "<group>"; };
+		44DBC3212766C8D8000A45C8 /* FiguresListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiguresListView.swift; sourceTree = "<group>"; };
+		44DBC3232766C8F4000A45C8 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		44DBC3252766C90D000A45C8 /* SphereView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SphereView.swift; sourceTree = "<group>"; };
+		44DBC3272766C921000A45C8 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		44F6FE4B2764F1C200D679E1 /* MacOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F6FE4E2764F1C200D679E1 /* MacOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSAppApp.swift; sourceTree = "<group>"; };
 		44F6FE522764F1C400D679E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +64,54 @@
 			path = FlashCards;
 			sourceTree = "<group>";
 		};
+		44DBC3122766C6F4000A45C8 /* FiguresHelper */ = {
+			isa = PBXGroup;
+			children = (
+				44DBC3132766C72A000A45C8 /* Views */,
+			);
+			path = FiguresHelper;
+			sourceTree = "<group>";
+		};
+		44DBC3132766C72A000A45C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44DBC3212766C8D8000A45C8 /* FiguresListView.swift */,
+				44DBC3182766C7BF000A45C8 /* Slider Shapes */,
+				44DBC3172766C7AB000A45C8 /* Text Field Shapes */,
+				44DBC3142766C72F000A45C8 /* Helpers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44DBC3142766C72F000A45C8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				44DBC31D2766C88F000A45C8 /* SectionLabelView.swift */,
+				44DBC31E2766C88F000A45C8 /* SliderValueView.swift */,
+				44DBC3152766C75B000A45C8 /* OutputValueView.swift */,
+				44DBC31B2766C822000A45C8 /* DiagramView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		44DBC3172766C7AB000A45C8 /* Text Field Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				44DBC3272766C921000A45C8 /* CircleView.swift */,
+				44DBC3252766C90D000A45C8 /* SphereView.swift */,
+			);
+			path = "Text Field Shapes";
+			sourceTree = "<group>";
+		};
+		44DBC3182766C7BF000A45C8 /* Slider Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				44DBC3232766C8F4000A45C8 /* ContentView.swift */,
+				44DBC3192766C7E9000A45C8 /* ParallelogramView.swift */,
+			);
+			path = "Slider Shapes";
+			sourceTree = "<group>";
+		};
 		44F6FE422764F1C200D679E1 = {
 			isa = PBXGroup;
 			children = (
@@ -67,10 +133,11 @@
 			children = (
 				44F6FE4E2764F1C200D679E1 /* MacOSAppApp.swift */,
 				4498386C27664CF500F88177 /* NavigationListView.swift */,
+				4498386B27664C7600F88177 /* FlashCards */,
+				44DBC3122766C6F4000A45C8 /* FiguresHelper */,
 				44F6FE522764F1C400D679E1 /* Assets.xcassets */,
 				44F6FE572764F1C400D679E1 /* MacOSApp.entitlements */,
 				44F6FE542764F1C400D679E1 /* Preview Content */,
-				4498386B27664C7600F88177 /* FlashCards */,
 			);
 			path = MacOSApp;
 			sourceTree = "<group>";
@@ -170,8 +237,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				44F6FE7C2764F38300D679E1 /* FlashCardModel.swift in Sources */,
+				44DBC3242766C8F4000A45C8 /* ContentView.swift in Sources */,
+				44DBC31F2766C890000A45C8 /* SectionLabelView.swift in Sources */,
+				44DBC3162766C75B000A45C8 /* OutputValueView.swift in Sources */,
+				44DBC31A2766C7E9000A45C8 /* ParallelogramView.swift in Sources */,
+				44DBC3222766C8D8000A45C8 /* FiguresListView.swift in Sources */,
 				44F6FE7A2764F31F00D679E1 /* FlashCardsView.swift in Sources */,
+				44DBC3202766C890000A45C8 /* SliderValueView.swift in Sources */,
+				44DBC3282766C921000A45C8 /* CircleView.swift in Sources */,
 				4498386D27664CF500F88177 /* NavigationListView.swift in Sources */,
+				44DBC3262766C90D000A45C8 /* SphereView.swift in Sources */,
+				44DBC31C2766C822000A45C8 /* DiagramView.swift in Sources */,
 				44F6FE4F2764F1C200D679E1 /* MacOSAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
