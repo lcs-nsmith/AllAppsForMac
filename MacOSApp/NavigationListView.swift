@@ -11,23 +11,34 @@ struct NavigationListView: View {
     var body: some View {
         List {
             Section(content: {
-
-                NavigationLink(destination: {
-                    FlashCardsView()
-                }, label: {
-                    Text("Flash Cards")
-                })
                 
-                Divider()
+                Group {
+                    NavigationLink(destination: {
+                        FlashCardsView()
+                    }, label: {
+                        Text("Flash Cards")
+                    })
+                    
+                    Divider()
+                }
+                Group {
+                    NavigationLink(destination: {
+                        NavigationView {
+                            FiguresListView()
+                        }
+                    }, label: {
+                        Text("Figures Helper")
+                    })
+                    Divider()
+                }
                 
-                NavigationLink(destination: {
-                    NavigationView {
-                    FiguresListView()
-                    }
-                }, label: {
-                    Text("Figures Helper")
-                })
-                
+                Group {
+                    NavigationLink(destination: {
+                            MamaBearBowlView()
+                    }, label: {
+                        Text("Mama Bear's Bowl")
+                    })
+                }
             }, header: {
                 
                 Text("Tools & App's")
@@ -39,7 +50,7 @@ struct NavigationListView: View {
 struct NavigationListView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-        NavigationListView()
+            NavigationListView()
         }
     }
 }
