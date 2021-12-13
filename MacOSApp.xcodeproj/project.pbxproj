@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4498386D27664CF500F88177 /* NavigationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4498386C27664CF500F88177 /* NavigationListView.swift */; };
 		44C019812767D8CB001E4A4A /* MamaBearBowlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C019802767D8CB001E4A4A /* MamaBearBowlView.swift */; };
+		44C019842767E5DB001E4A4A /* CelsiusToFahrenheitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C019832767E5DB001E4A4A /* CelsiusToFahrenheitView.swift */; };
 		44DBC3162766C75B000A45C8 /* OutputValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBC3152766C75B000A45C8 /* OutputValueView.swift */; };
 		44DBC31A2766C7E9000A45C8 /* ParallelogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBC3192766C7E9000A45C8 /* ParallelogramView.swift */; };
 		44DBC31C2766C822000A45C8 /* DiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBC31B2766C822000A45C8 /* DiagramView.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		4498386C27664CF500F88177 /* NavigationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationListView.swift; sourceTree = "<group>"; };
 		44C019802767D8CB001E4A4A /* MamaBearBowlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MamaBearBowlView.swift; sourceTree = "<group>"; };
+		44C019832767E5DB001E4A4A /* CelsiusToFahrenheitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelsiusToFahrenheitView.swift; sourceTree = "<group>"; };
 		44DBC3152766C75B000A45C8 /* OutputValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputValueView.swift; sourceTree = "<group>"; };
 		44DBC3192766C7E9000A45C8 /* ParallelogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelogramView.swift; sourceTree = "<group>"; };
 		44DBC31B2766C822000A45C8 /* DiagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramView.swift; sourceTree = "<group>"; };
@@ -66,12 +68,20 @@
 			path = FlashCards;
 			sourceTree = "<group>";
 		};
-		44C0197F2767D895001E4A4A /* MamaBear */ = {
+		44C0197F2767D895001E4A4A /* MamaBearBowl */ = {
 			isa = PBXGroup;
 			children = (
 				44C019802767D8CB001E4A4A /* MamaBearBowlView.swift */,
 			);
-			path = MamaBear;
+			path = MamaBearBowl;
+			sourceTree = "<group>";
+		};
+		44C019822767E557001E4A4A /* Temperature Converter */ = {
+			isa = PBXGroup;
+			children = (
+				44C019832767E5DB001E4A4A /* CelsiusToFahrenheitView.swift */,
+			);
+			path = "Temperature Converter";
 			sourceTree = "<group>";
 		};
 		44DBC3122766C6F4000A45C8 /* FiguresHelper */ = {
@@ -145,7 +155,8 @@
 				4498386C27664CF500F88177 /* NavigationListView.swift */,
 				4498386B27664C7600F88177 /* FlashCards */,
 				44DBC3122766C6F4000A45C8 /* FiguresHelper */,
-				44C0197F2767D895001E4A4A /* MamaBear */,
+				44C0197F2767D895001E4A4A /* MamaBearBowl */,
+				44C019822767E557001E4A4A /* Temperature Converter */,
 				44F6FE522764F1C400D679E1 /* Assets.xcassets */,
 				44F6FE572764F1C400D679E1 /* MacOSApp.entitlements */,
 				44F6FE542764F1C400D679E1 /* Preview Content */,
@@ -251,6 +262,7 @@
 				44F6FE7C2764F38300D679E1 /* FlashCardModel.swift in Sources */,
 				44DBC3242766C8F4000A45C8 /* ContentView.swift in Sources */,
 				44DBC31F2766C890000A45C8 /* SectionLabelView.swift in Sources */,
+				44C019842767E5DB001E4A4A /* CelsiusToFahrenheitView.swift in Sources */,
 				44DBC3162766C75B000A45C8 /* OutputValueView.swift in Sources */,
 				44DBC31A2766C7E9000A45C8 /* ParallelogramView.swift in Sources */,
 				44DBC3222766C8D8000A45C8 /* FiguresListView.swift in Sources */,

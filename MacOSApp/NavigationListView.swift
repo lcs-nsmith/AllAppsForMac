@@ -38,6 +38,15 @@ struct NavigationListView: View {
                     }, label: {
                         Text("Mama Bear's Bowl")
                     })
+                    Divider()
+                }
+                
+                Group {
+                    NavigationLink(destination: {
+                            CelsiusToFahrenheitView()
+                    }, label: {
+                        Text("Temperature Converter")
+                    })
                 }
             }, header: {
                 
