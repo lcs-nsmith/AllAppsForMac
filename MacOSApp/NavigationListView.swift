@@ -12,6 +12,20 @@ struct NavigationListView: View {
         List {
             Section(content: {
                 
+                NavigationLink(destination: {
+                    SphereView()
+                }, label: {
+                    Text("Sphere")
+                })
+                
+            }, header: {
+                
+                    
+                Text("Thread 1")
+                
+            })
+            Section(content: {
+                
                 Group {
                     NavigationLink(destination: {
                         FlashCardsView()
@@ -47,13 +61,23 @@ struct NavigationListView: View {
                     }, label: {
                         Text("Temperature Converter")
                     })
+                    Divider()
+                }
+                Group {
+                    NavigationLink(destination: {
+                            GuessingGame()
+                    }, label: {
+                        Text("Guessing Game")
+                    })
+                    Divider()
                 }
             }, header: {
                 
-                Text("Tools & App's")
+                Text("Thread Two")
                 
             })
         }
+        
     }
 }
 struct NavigationListView_Previews: PreviewProvider {
