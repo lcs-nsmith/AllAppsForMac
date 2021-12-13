@@ -142,6 +142,18 @@
 			path = GuessingGame;
 			sourceTree = "<group>";
 		};
+		44F6461E2767F6A400E56AB2 /* Thread 2 Tools */ = {
+			isa = PBXGroup;
+			children = (
+				44F6461A2767F4F700E56AB2 /* GuessingGame */,
+				44C019822767E557001E4A4A /* Temperature Converter */,
+				44C0197F2767D895001E4A4A /* MamaBearBowl */,
+				44DBC3122766C6F4000A45C8 /* FiguresHelper */,
+				4498386B27664C7600F88177 /* FlashCards */,
+			);
+			path = "Thread 2 Tools";
+			sourceTree = "<group>";
+		};
 		44F6FE422764F1C200D679E1 = {
 			isa = PBXGroup;
 			children = (
@@ -163,11 +175,7 @@
 			children = (
 				44F6FE4E2764F1C200D679E1 /* MacOSAppApp.swift */,
 				4498386C27664CF500F88177 /* NavigationListView.swift */,
-				4498386B27664C7600F88177 /* FlashCards */,
-				44DBC3122766C6F4000A45C8 /* FiguresHelper */,
-				44C0197F2767D895001E4A4A /* MamaBearBowl */,
-				44C019822767E557001E4A4A /* Temperature Converter */,
-				44F6461A2767F4F700E56AB2 /* GuessingGame */,
+				44F6461E2767F6A400E56AB2 /* Thread 2 Tools */,
 				44F6FE522764F1C400D679E1 /* Assets.xcassets */,
 				44F6FE572764F1C400D679E1 /* MacOSApp.entitlements */,
 				44F6FE542764F1C400D679E1 /* Preview Content */,
