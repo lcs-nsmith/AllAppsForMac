@@ -12,20 +12,6 @@ struct NavigationListView: View {
         List {
             Section(content: {
                 
-                NavigationLink(destination: {
-                    SphereView()
-                }, label: {
-                    Text("Sphere")
-                })
-                
-            }, header: {
-                
-                    
-                Text("Thread 1")
-                
-            })
-            Section(content: {
-                
                 Group {
                     NavigationLink(destination: {
                         FlashCardsView()
@@ -73,7 +59,7 @@ struct NavigationListView: View {
                 }
             }, header: {
                 
-                Text("Thread Two")
+                Text("Tools & Apps")
                 
             })
         }
