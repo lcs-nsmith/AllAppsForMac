@@ -25,6 +25,10 @@
 		44F6FE562764F1C400D679E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F6FE552764F1C400D679E1 /* Preview Assets.xcassets */; };
 		44F6FE7A2764F31F00D679E1 /* FlashCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F6FE792764F31F00D679E1 /* FlashCardsView.swift */; };
 		44F6FE7C2764F38300D679E1 /* FlashCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F6FE7B2764F38300D679E1 /* FlashCardModel.swift */; };
+		4AE87FB927B41FFB00A55DEB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE87FB827B41FFB00A55DEB /* MenuView.swift */; };
+		4AE87FBB27B4201100A55DEB /* MultiplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE87FBA27B4201100A55DEB /* MultiplicationView.swift */; };
+		4AE87FBD27B4201B00A55DEB /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE87FBC27B4201B00A55DEB /* AdditionView.swift */; };
+		4AE87FC927B429E100A55DEB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4AE87FC827B429E100A55DEB /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,9 @@
 		44F6FE572764F1C400D679E1 /* MacOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOSApp.entitlements; sourceTree = "<group>"; };
 		44F6FE792764F31F00D679E1 /* FlashCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsView.swift; sourceTree = "<group>"; };
 		44F6FE7B2764F38300D679E1 /* FlashCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardModel.swift; sourceTree = "<group>"; };
+		4AE87FB827B41FFB00A55DEB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		4AE87FBA27B4201100A55DEB /* MultiplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationView.swift; sourceTree = "<group>"; };
+		4AE87FBC27B4201B00A55DEB /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE87FC927B429E100A55DEB /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +184,7 @@
 				44F6FE4E2764F1C200D679E1 /* MacOSAppApp.swift */,
 				4498386C27664CF500F88177 /* NavigationListView.swift */,
 				44F6461E2767F6A400E56AB2 /* Thread 2 Tools */,
+				4AE87FB627B41F5C00A55DEB /* Thread 3 Tools */,
 				44F6FE522764F1C400D679E1 /* Assets.xcassets */,
 				44F6FE572764F1C400D679E1 /* MacOSApp.entitlements */,
 				44F6FE542764F1C400D679E1 /* Preview Content */,
@@ -207,6 +216,24 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		4AE87FB627B41F5C00A55DEB /* Thread 3 Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4AE87FB727B41FD000A55DEB /* Arithmetic Ace */,
+			);
+			path = "Thread 3 Tools";
+			sourceTree = "<group>";
+		};
+		4AE87FB727B41FD000A55DEB /* Arithmetic Ace */ = {
+			isa = PBXGroup;
+			children = (
+				4AE87FB827B41FFB00A55DEB /* MenuView.swift */,
+				4AE87FBA27B4201100A55DEB /* MultiplicationView.swift */,
+				4AE87FBC27B4201B00A55DEB /* AdditionView.swift */,
+			);
+			path = "Arithmetic Ace";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,6 +250,9 @@
 			dependencies = (
 			);
 			name = MacOSApp;
+			packageProductDependencies = (
+				4AE87FC827B429E100A55DEB /* Lottie */,
+			);
 			productName = MacOSApp;
 			productReference = 44F6FE4B2764F1C200D679E1 /* MacOSApp.app */;
 			productType = "com.apple.product-type.application";
@@ -251,6 +281,9 @@
 				Base,
 			);
 			mainGroup = 44F6FE422764F1C200D679E1;
+			packageReferences = (
+				4AE87FC727B429E100A55DEB /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 44F6FE4C2764F1C200D679E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -284,12 +317,15 @@
 				44C019842767E5DB001E4A4A /* CelsiusToFahrenheitView.swift in Sources */,
 				44DBC3162766C75B000A45C8 /* OutputValueView.swift in Sources */,
 				44DBC31A2766C7E9000A45C8 /* ParallelogramView.swift in Sources */,
+				4AE87FB927B41FFB00A55DEB /* MenuView.swift in Sources */,
 				44DBC3222766C8D8000A45C8 /* FiguresListView.swift in Sources */,
 				44F6FE7A2764F31F00D679E1 /* FlashCardsView.swift in Sources */,
 				44DBC3202766C890000A45C8 /* SliderValueView.swift in Sources */,
 				44DBC3282766C921000A45C8 /* CircleView.swift in Sources */,
+				4AE87FBB27B4201100A55DEB /* MultiplicationView.swift in Sources */,
 				4498386D27664CF500F88177 /* NavigationListView.swift in Sources */,
 				44F6461C2767F53200E56AB2 /* GuessingGame.swift in Sources */,
+				4AE87FBD27B4201B00A55DEB /* AdditionView.swift in Sources */,
 				44DBC3262766C90D000A45C8 /* SphereView.swift in Sources */,
 				44DBC31C2766C822000A45C8 /* DiagramView.swift in Sources */,
 				44F6FE4F2764F1C200D679E1 /* MacOSAppApp.swift in Sources */,
@@ -490,6 +526,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4AE87FC727B429E100A55DEB /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4AE87FC827B429E100A55DEB /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AE87FC727B429E100A55DEB /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 44F6FE432764F1C200D679E1 /* Project object */;
 }

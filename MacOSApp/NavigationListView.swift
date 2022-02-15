@@ -34,7 +34,7 @@ struct NavigationListView: View {
                 
                 Group {
                     NavigationLink(destination: {
-                            MamaBearBowlView()
+                        MamaBearBowlView()
                     }, label: {
                         Text("Mama Bear's Bowl")
                     })
@@ -43,7 +43,7 @@ struct NavigationListView: View {
                 
                 Group {
                     NavigationLink(destination: {
-                            CelsiusToFahrenheitView()
+                        CelsiusToFahrenheitView()
                     }, label: {
                         Text("Temperature Converter")
                     })
@@ -51,9 +51,19 @@ struct NavigationListView: View {
                 }
                 Group {
                     NavigationLink(destination: {
-                            GuessingGame()
+                        GuessingGame()
                     }, label: {
                         Text("Guessing Game")
+                    })
+                    Divider()
+                }
+                Group {
+                    NavigationLink(destination: {
+                        NavigationView {
+                        MenuView()
+                        }
+                    }, label: {
+                        Text("Arithmetic Ace")
                     })
                     Divider()
                 }
