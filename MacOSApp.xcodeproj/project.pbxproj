@@ -25,9 +25,21 @@
 		44F6FE562764F1C400D679E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F6FE552764F1C400D679E1 /* Preview Assets.xcassets */; };
 		44F6FE7A2764F31F00D679E1 /* FlashCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F6FE792764F31F00D679E1 /* FlashCardsView.swift */; };
 		44F6FE7C2764F38300D679E1 /* FlashCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F6FE7B2764F38300D679E1 /* FlashCardModel.swift */; };
-		4AE87FB927B41FFB00A55DEB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE87FB827B41FFB00A55DEB /* MenuView.swift */; };
-		4AE87FBB27B4201100A55DEB /* MultiplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE87FBA27B4201100A55DEB /* MultiplicationView.swift */; };
-		4AE87FBD27B4201B00A55DEB /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE87FBC27B4201B00A55DEB /* AdditionView.swift */; };
+		4A2D9D3E27BC13C50034DB52 /* 42593-hitting-head-with-a-bat.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D9D3C27BC13C40034DB52 /* 42593-hitting-head-with-a-bat.json */; };
+		4A2D9D3F27BC13C50034DB52 /* 51926-happy.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D9D3D27BC13C50034DB52 /* 51926-happy.json */; };
+		4A2D9D4627BC13E10034DB52 /* CheckAnswerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D9D4027BC13E10034DB52 /* CheckAnswerButtonView.swift */; };
+		4A2D9D4827BC13E10034DB52 /* AnswerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D9D4227BC13E10034DB52 /* AnswerTextView.swift */; };
+		4A2D9D4927BC13E10034DB52 /* QuestionPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D9D4327BC13E10034DB52 /* QuestionPresentationView.swift */; };
+		4A2D9D4A27BC13E10034DB52 /* AnswerAndResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D9D4427BC13E10034DB52 /* AnswerAndResultView.swift */; };
+		4A2D9D4B27BC13E10034DB52 /* AnimationsAbstractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D9D4527BC13E10034DB52 /* AnimationsAbstractionView.swift */; };
+		4A2D9D5027BC13FC0034DB52 /* MultiplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D9D4C27BC13FB0034DB52 /* MultiplicationView.swift */; };
+		4A2D9D5127BC13FC0034DB52 /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D9D4D27BC13FB0034DB52 /* AdditionView.swift */; };
+		4A2D9D5227BC13FC0034DB52 /* SubtractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D9D4E27BC13FB0034DB52 /* SubtractionView.swift */; };
+		4A2D9D5327BC13FC0034DB52 /* DivisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D9D4F27BC13FC0034DB52 /* DivisionView.swift */; };
+		4A2D9D5627BC172B0034DB52 /* ArithmaticAceTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D9D5527BC172B0034DB52 /* ArithmaticAceTabView.swift */; };
+		4A2D9D5A27BC187A0034DB52 /* GraphicsInterchangeFormatDisplayForLottieAnimationHappyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D9D5927BC187A0034DB52 /* GraphicsInterchangeFormatDisplayForLottieAnimationHappyView.swift */; };
+		4A2D9D5D27BC192F0034DB52 /* animation_640_kzhjq6k3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D9D5B27BC192F0034DB52 /* animation_640_kzhjq6k3.gif */; };
+		4A2D9D5E27BC192F0034DB52 /* animation_640_kzhiwjiu.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D9D5C27BC192F0034DB52 /* animation_640_kzhiwjiu.gif */; };
 		4AE87FC927B429E100A55DEB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4AE87FC827B429E100A55DEB /* Lottie */; };
 /* End PBXBuildFile section */
 
@@ -52,9 +64,21 @@
 		44F6FE572764F1C400D679E1 /* MacOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOSApp.entitlements; sourceTree = "<group>"; };
 		44F6FE792764F31F00D679E1 /* FlashCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsView.swift; sourceTree = "<group>"; };
 		44F6FE7B2764F38300D679E1 /* FlashCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardModel.swift; sourceTree = "<group>"; };
-		4AE87FB827B41FFB00A55DEB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
-		4AE87FBA27B4201100A55DEB /* MultiplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationView.swift; sourceTree = "<group>"; };
-		4AE87FBC27B4201B00A55DEB /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
+		4A2D9D3C27BC13C40034DB52 /* 42593-hitting-head-with-a-bat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "42593-hitting-head-with-a-bat.json"; sourceTree = "<group>"; };
+		4A2D9D3D27BC13C50034DB52 /* 51926-happy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "51926-happy.json"; sourceTree = "<group>"; };
+		4A2D9D4027BC13E10034DB52 /* CheckAnswerButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckAnswerButtonView.swift; sourceTree = "<group>"; };
+		4A2D9D4227BC13E10034DB52 /* AnswerTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerTextView.swift; sourceTree = "<group>"; };
+		4A2D9D4327BC13E10034DB52 /* QuestionPresentationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionPresentationView.swift; sourceTree = "<group>"; };
+		4A2D9D4427BC13E10034DB52 /* AnswerAndResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerAndResultView.swift; sourceTree = "<group>"; };
+		4A2D9D4527BC13E10034DB52 /* AnimationsAbstractionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationsAbstractionView.swift; sourceTree = "<group>"; };
+		4A2D9D4C27BC13FB0034DB52 /* MultiplicationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplicationView.swift; sourceTree = "<group>"; };
+		4A2D9D4D27BC13FB0034DB52 /* AdditionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
+		4A2D9D4E27BC13FB0034DB52 /* SubtractionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtractionView.swift; sourceTree = "<group>"; };
+		4A2D9D4F27BC13FC0034DB52 /* DivisionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivisionView.swift; sourceTree = "<group>"; };
+		4A2D9D5527BC172B0034DB52 /* ArithmaticAceTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmaticAceTabView.swift; sourceTree = "<group>"; };
+		4A2D9D5927BC187A0034DB52 /* GraphicsInterchangeFormatDisplayForLottieAnimationHappyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsInterchangeFormatDisplayForLottieAnimationHappyView.swift; sourceTree = "<group>"; };
+		4A2D9D5B27BC192F0034DB52 /* animation_640_kzhjq6k3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation_640_kzhjq6k3.gif; sourceTree = "<group>"; };
+		4A2D9D5C27BC192F0034DB52 /* animation_640_kzhiwjiu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation_640_kzhiwjiu.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +205,7 @@
 		44F6FE4D2764F1C200D679E1 /* MacOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				4A2D9D5427BC17040034DB52 /* Navigation List Helpers */,
 				44F6FE4E2764F1C200D679E1 /* MacOSAppApp.swift */,
 				4498386C27664CF500F88177 /* NavigationListView.swift */,
 				44F6461E2767F6A400E56AB2 /* Thread 2 Tools */,
@@ -216,22 +241,65 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		4A2D9D3927BC13490034DB52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A2D9D4D27BC13FB0034DB52 /* AdditionView.swift */,
+				4A2D9D4F27BC13FC0034DB52 /* DivisionView.swift */,
+				4A2D9D4C27BC13FB0034DB52 /* MultiplicationView.swift */,
+				4A2D9D4E27BC13FB0034DB52 /* SubtractionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A2D9D3A27BC138A0034DB52 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4A2D9D4527BC13E10034DB52 /* AnimationsAbstractionView.swift */,
+				4A2D9D4427BC13E10034DB52 /* AnswerAndResultView.swift */,
+				4A2D9D4227BC13E10034DB52 /* AnswerTextView.swift */,
+				4A2D9D4027BC13E10034DB52 /* CheckAnswerButtonView.swift */,
+				4A2D9D4327BC13E10034DB52 /* QuestionPresentationView.swift */,
+				4A2D9D5927BC187A0034DB52 /* GraphicsInterchangeFormatDisplayForLottieAnimationHappyView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4A2D9D3B27BC13910034DB52 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				4A2D9D5C27BC192F0034DB52 /* animation_640_kzhiwjiu.gif */,
+				4A2D9D5B27BC192F0034DB52 /* animation_640_kzhjq6k3.gif */,
+				4A2D9D3C27BC13C40034DB52 /* 42593-hitting-head-with-a-bat.json */,
+				4A2D9D3D27BC13C50034DB52 /* 51926-happy.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		4A2D9D5427BC17040034DB52 /* Navigation List Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4A2D9D5527BC172B0034DB52 /* ArithmaticAceTabView.swift */,
+			);
+			path = "Navigation List Helpers";
+			sourceTree = "<group>";
+		};
+		4A2D9D5F27BC90470034DB52 /* ArithmeticAce */ = {
+			isa = PBXGroup;
+			children = (
+				4A2D9D3B27BC13910034DB52 /* Animations */,
+				4A2D9D3A27BC138A0034DB52 /* Helpers */,
+				4A2D9D3927BC13490034DB52 /* Views */,
+			);
+			path = ArithmeticAce;
+			sourceTree = "<group>";
+		};
 		4AE87FB627B41F5C00A55DEB /* Thread 3 Tools */ = {
 			isa = PBXGroup;
 			children = (
-				4AE87FB727B41FD000A55DEB /* Arithmetic Ace */,
+				4A2D9D5F27BC90470034DB52 /* ArithmeticAce */,
 			);
 			path = "Thread 3 Tools";
-			sourceTree = "<group>";
-		};
-		4AE87FB727B41FD000A55DEB /* Arithmetic Ace */ = {
-			isa = PBXGroup;
-			children = (
-				4AE87FB827B41FFB00A55DEB /* MenuView.swift */,
-				4AE87FBA27B4201100A55DEB /* MultiplicationView.swift */,
-				4AE87FBC27B4201B00A55DEB /* AdditionView.swift */,
-			);
-			path = "Arithmetic Ace";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +368,10 @@
 			files = (
 				44F6FE562764F1C400D679E1 /* Preview Assets.xcassets in Resources */,
 				44F6FE532764F1C400D679E1 /* Assets.xcassets in Resources */,
+				4A2D9D3F27BC13C50034DB52 /* 51926-happy.json in Resources */,
+				4A2D9D3E27BC13C50034DB52 /* 42593-hitting-head-with-a-bat.json in Resources */,
+				4A2D9D5D27BC192F0034DB52 /* animation_640_kzhjq6k3.gif in Resources */,
+				4A2D9D5E27BC192F0034DB52 /* animation_640_kzhiwjiu.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,25 +382,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2D9D4B27BC13E10034DB52 /* AnimationsAbstractionView.swift in Sources */,
 				44C019812767D8CB001E4A4A /* MamaBearBowlView.swift in Sources */,
+				4A2D9D4627BC13E10034DB52 /* CheckAnswerButtonView.swift in Sources */,
 				44F6FE7C2764F38300D679E1 /* FlashCardModel.swift in Sources */,
 				44DBC3242766C8F4000A45C8 /* ContentView.swift in Sources */,
 				44DBC31F2766C890000A45C8 /* SectionLabelView.swift in Sources */,
 				44C019842767E5DB001E4A4A /* CelsiusToFahrenheitView.swift in Sources */,
 				44DBC3162766C75B000A45C8 /* OutputValueView.swift in Sources */,
 				44DBC31A2766C7E9000A45C8 /* ParallelogramView.swift in Sources */,
-				4AE87FB927B41FFB00A55DEB /* MenuView.swift in Sources */,
 				44DBC3222766C8D8000A45C8 /* FiguresListView.swift in Sources */,
+				4A2D9D4827BC13E10034DB52 /* AnswerTextView.swift in Sources */,
 				44F6FE7A2764F31F00D679E1 /* FlashCardsView.swift in Sources */,
 				44DBC3202766C890000A45C8 /* SliderValueView.swift in Sources */,
+				4A2D9D4927BC13E10034DB52 /* QuestionPresentationView.swift in Sources */,
+				4A2D9D5627BC172B0034DB52 /* ArithmaticAceTabView.swift in Sources */,
+				4A2D9D4A27BC13E10034DB52 /* AnswerAndResultView.swift in Sources */,
 				44DBC3282766C921000A45C8 /* CircleView.swift in Sources */,
-				4AE87FBB27B4201100A55DEB /* MultiplicationView.swift in Sources */,
 				4498386D27664CF500F88177 /* NavigationListView.swift in Sources */,
 				44F6461C2767F53200E56AB2 /* GuessingGame.swift in Sources */,
-				4AE87FBD27B4201B00A55DEB /* AdditionView.swift in Sources */,
+				4A2D9D5027BC13FC0034DB52 /* MultiplicationView.swift in Sources */,
+				4A2D9D5127BC13FC0034DB52 /* AdditionView.swift in Sources */,
 				44DBC3262766C90D000A45C8 /* SphereView.swift in Sources */,
 				44DBC31C2766C822000A45C8 /* DiagramView.swift in Sources */,
 				44F6FE4F2764F1C200D679E1 /* MacOSAppApp.swift in Sources */,
+				4A2D9D5227BC13FC0034DB52 /* SubtractionView.swift in Sources */,
+				4A2D9D5A27BC187A0034DB52 /* GraphicsInterchangeFormatDisplayForLottieAnimationHappyView.swift in Sources */,
+				4A2D9D5327BC13FC0034DB52 /* DivisionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

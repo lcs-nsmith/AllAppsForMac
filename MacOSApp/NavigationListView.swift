@@ -59,9 +59,7 @@ struct NavigationListView: View {
                 }
                 Group {
                     NavigationLink(destination: {
-                        NavigationView {
-                        MenuView()
-                        }
+                        ArithmaticAceTabView()
                     }, label: {
                         Text("Arithmetic Ace")
                     })
