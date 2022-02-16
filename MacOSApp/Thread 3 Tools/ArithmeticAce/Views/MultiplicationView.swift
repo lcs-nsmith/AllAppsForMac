@@ -65,7 +65,7 @@ struct MultiplicationView: View {
                 
             }
             
-            AnswerTextView(output: correctProduct, answerChecked: answerChecked, answerCorrect: answerChecked)
+            AnswerTextView(output: correctProduct, answerChecked: answerChecked, answerCorrect: answerCorrect)
             
             AnimationsAbstractionView(answerChecked: answerChecked, answerCorrect: answerCorrect)
             
