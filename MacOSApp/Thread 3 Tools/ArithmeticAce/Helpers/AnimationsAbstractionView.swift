@@ -8,26 +8,33 @@
 import SwiftUI
 
 struct AnimationsAbstractionView: View {
-
+    
     let answerChecked: Bool
     let answerCorrect: Bool
-
+    
     var body: some View {
         ZStack {
-
-//            // Reaction Animation
-//            GraphicsInterchangeFormatDisplayForLottieAnimationHappyView("animation_640_kzhjq6k3")
-//                           .frame(width: 200, height: 200)
+            
+            // Reaction Animation
+            // MARK: --
 //
-//            GraphicsInterchangeFormatDisplayForLottieAnimationHappyView("animation_640_kzhiwjiu")
-//                           .frame(width: 200, height: 200)
-
+//            Image(nsImage: #imageLiteral(resourceName: "animation_640_kzhiwjiu.gif"))
+//                .opacity(answerCorrect == true ? 1.0 : 0.0)
+//                .padding()
+//                .scaledToFit()
+//                .frame(maxWidth: 20, maxHeight: 20)
+//
+//            Image(nsImage: #imageLiteral(resourceName: "animation_640_kzhjq6k3.gif"))
+//                .opacity(answerChecked == true && answerCorrect == false ? 1.0 : 0.0)
+//                .padding()
+//                .frame(maxWidth: 20, maxHeight: 20)
+            // MARK: --
         }
     }
 }
-//
-//struct AnimationsAbstractionView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        AnimationsAbstractionView()
-//    }
-//}
+
+struct AnimationsAbstractionView_Previews: PreviewProvider {
+    static var previews: some View {
+        AnimationsAbstractionView(answerChecked: true, answerCorrect: false)
+    }
+}
